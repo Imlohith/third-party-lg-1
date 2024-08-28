@@ -1,0 +1,69 @@
+.home-root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the space between the icon and the text */
+  border-radius: 14px; /* Adjust as needed */
+  border: 1px solid #ccc; /* Example border, adjust as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #0D3005; /* Example background color, adjust as needed */
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .card {
+    border-radius: 14px;
+    background-color: #BBD7A7;
+    padding: 0px 10px
+  }
+
+  .card-header {
+    font-family: 'bold';
+    margin-top: 15px;
+
+  }
+  
+  .card-list {
+    list-style: none;
+    padding: 0px;
+  }
+  
+  .card-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 6px;
+  }
+
+  .item-icon, .item-name {
+    margin-right: 10px; /* Adjust spacing between icon and name */
+    color: #0E2F05;
+    font-family: 'regular';
+  }
+  
+  /* Group icon and name together */
+  .item-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
